@@ -9,6 +9,7 @@ public class parImpar {
 		boolean isPar = (numero%2==0)? true : false;
 		return isPar;
 	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num=0;
