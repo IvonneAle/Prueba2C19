@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/**
+ * @author bryan
+ * 
+ * */
 public class parImpar {
 	
 	static boolean isPar(int numero) {
