@@ -9,6 +9,7 @@ public class parImpar {
 		boolean isPar = (numero%2==0)? true : false;
 		return isPar;
 	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num=0;
@@ -33,9 +34,7 @@ public class parImpar {
 			System.out.print("Desea repetir? (s,n): ");
 			pregunta=sc.nextLine();
 		}while(pregunta.charAt(0)=='s' || pregunta.charAt(0)=='S');
-		
-		
-		
+		//comentario
 	}
 
 }
